@@ -114,26 +114,44 @@ header{
 .about_me_txt{
     display: flex;
     flex-direction:row;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: "Quicksand";
+    padding-top: 100px;
+}
+
+.about_me_txt h1{
+    font-size: 3vw;
+}
+
+.about_me_txt p{
+    font-size: 1.5vw;
 }
 
 .sobre_mim{
     display: flex;
     flex-direction: column;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50%;
     height: 50%;
+    padding-right: 100px;
 }
 
 
 /* Início Skill */
 
+.Tech_skill{
+    width: 50%;
+}
+
+.text_skill{
+   
+}
+
 .html p, .css p, .js p, .git p, .SQL p{
     color: black;
     font-size: 20px;
     padding-left: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
     text-transform: uppercase;
 }
 
@@ -141,7 +159,7 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     animation-name: example;
     animation-duration: 30s;
     animation-iteration-count:3;
