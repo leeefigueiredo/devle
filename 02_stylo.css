@@ -119,11 +119,11 @@ header{
     padding-top: 100px;
 }
 
-.about_me_txt h1{
+.about_me_txt h1, .class h1{
     font-size: 3vw;
 }
 
-.about_me_txt p{
+.about_me_txt p, .class p{
     font-size: 1.5vw;
 }
 
@@ -233,7 +233,9 @@ header{
 
 /* portfolio */
 
-
+.class{
+    
+}
 
 /* icone projetos */
 
