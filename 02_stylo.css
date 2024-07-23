@@ -99,6 +99,7 @@ header{
     animation-name: example0;
     animation-duration: 3s;
     animation-iteration-count:1;
+    padding-bottom: 150px ;
   
 }
 
@@ -110,55 +111,23 @@ header{
 
 /* Início Sobre mim */
 
-.img_about{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-items: center;
-    margin: 30px;
-}
-
-
 .about_me_txt{
-    display: inline-block;
-    /* flex-direction:row; */
-    /* border: 2px solid red; */
-    padding: 5%;
-    font-family: "Quicksand";
-    font-size: 4rem;
-}
-
-.h1_skill{
     display: flex;
-    justify-content: center;
+    flex-direction:row;
+    border: 2px solid red;
+    font-family: "Quicksand";
 }
 
 .sobre_mim{
     display: flex;
     flex-direction: column;
-    /* padding-left: 5%;
-    padding-right: 5%; */
-    /* border: 2px solid blue; */
-}
-
-.sobre_mim h1{
-    font-size: 4rem;
-    /* border: 2px solid green; */
-    margin-top: 0;
-}
-
-.sobre_mim p, .portfolio p{
-    font-size: 1.8rem;
+    border: 2px solid blue;
+    width: 50%;
+    height: 50%;
 }
 
 
 /* Início Skill */
-
-
-.Tech_skill{
-    font-size: 2rem;
-
-}
 
 .html p, .css p, .js p, .git p, .SQL p{
     color: black;
