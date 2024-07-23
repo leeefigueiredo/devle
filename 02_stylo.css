@@ -1,0 +1,398 @@
+:root{
+    --backgrond-color: white;
+    --second_color: #7288ab;
+    --Third_color: rgb(35, 73, 135);
+    --barra: 20px;
+    
+}
+
+main{
+    padding: 10%;
+}
+
+body{
+    font-family: "Quicksand";
+    background-color: var(--backgrond-color);
+    margin:0;
+}
+
+.top_nav{
+    display: inline-flex;
+    background-color: var(--second_color);    
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+
+    animation-name: example0;
+    animation-duration: 1s;
+    animation-iteration-count:1;
+    
+}
+
+
+@keyframes example0 {
+    0%   {left:-1000px; top:0px;}
+    100% { left:0px; top:50px;}
+    
+}
+
+.top_nav p{
+    font-size: 50px;
+}
+
+.h1_top_nav{
+    color: var(--backgrond-color);
+    letter-spacing: 4px;
+    margin-left: 1rem;
+}
+
+.li_nav{
+    padding: 11px;
+    display:inline-block;
+    margin-left: 1rem;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+.li_nav a{
+    text-decoration: none;
+    color: var(--backgrond-color);
+}
+
+.li_nav a:hover{
+    color: black;
+    transition: .5s ease;
+}
+
+/* início header */
+
+header{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom:30px;
+   padding-top: 250px;
+   letter-spacing: 4px;
+   background-image: linear-gradient(to bottom, transparent, white), url(header.jpg);
+   background-position: center top;
+   background-size: cover;
+   background-repeat:no-repeat;
+
+  
+}
+
+.header_main h1{
+    font-size: 15rem;
+    margin-bottom: 0;
+    color: var(--second_color);
+}
+
+.header_main p{
+    font-size: 1vw;
+    margin-bottom: 0;
+    color: black;
+}
+
+.header_main{
+    position: relative;
+    animation-name: example0;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+  
+  
+}
+
+@keyframes example0 {
+    0%   {left:-1000px; top:0px;}
+    100% { left:0px; top:0px;}
+  }
+
+
+/* Início Sobre mim */
+
+.img_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin: 30px;
+}
+
+
+.about_me_txt{
+    display: inline-block;
+    /* flex-direction:row; */
+    /* border: 2px solid red; */
+    padding: 5%;
+    font-family: "Quicksand";
+    font-size: 4rem;
+}
+
+.h1_skill{
+    display: flex;
+    justify-content: center;
+}
+
+.sobre_mim{
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* border: 2px solid blue; */
+}
+
+.sobre_mim h1{
+    font-size: 4rem;
+    /* border: 2px solid green; */
+    margin-top: 0;
+}
+
+.sobre_mim p, .portfolio p{
+    font-size: 1.8rem;
+}
+
+
+/* Início Skill */
+
+
+.Tech_skill{
+    font-size: 2rem;
+
+}
+
+.html p, .css p, .js p, .git p, .SQL p{
+    color: black;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.html{
+    background-color: var(--second_color);
+    height: var(--barra);
+    width: 100%;
+    margin-bottom: 30px;
+    animation-name: example;
+    animation-duration: 30s;
+    animation-iteration-count:3;
+    border-radius: 25px;
+
+}
+
+@keyframes example {
+    0%{width: 0%;}
+    100%{width: 100%;}
+
+}
+
+.css{
+    background-color: var(--second_color);
+    height: var(--barra);
+    width: 80%;
+    margin-bottom: 30px;
+    animation-name: example2;
+    animation-duration: 30s;
+    animation-iteration-count:3;
+    border-radius: 25px;
+}
+
+@keyframes example2 {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+
+.js{
+    background-color: var(--second_color);
+    height: var(--barra);
+    width:30%;
+    padding: auto;
+    margin-bottom: 30px;
+    animation-name: example3;
+    animation-duration: 30s;
+    animation-iteration-count:3;
+    border-radius: 25px;
+}
+
+@keyframes example3 {
+    0%{width: 0%;}
+    100%{width: 30%}
+}
+
+.git{
+    background-color: var(--second_color);
+    height: var(--barra);
+    width: 22%;
+    margin-bottom: 30px;
+    animation-name: example4;
+    animation-duration: 30s;
+    animation-iteration-count:3;
+    border-radius: 25px;
+}
+
+@keyframes example4 {
+    0%{width: 0%;}
+    100%{width: 22%}
+}
+
+.SQL{
+    background-color: var(--second_color);
+    height: var(--barra);
+    width: 22%;
+    margin-bottom: 30px;
+    animation-name: example5;
+    animation-duration: 30s;
+    animation-iteration-count:3;
+    border-radius: 25px;
+}
+
+@keyframes example5 {
+    0% {width: 0%;}
+    100% {width: 22%}
+}
+
+
+/* portfolio */
+
+.h1_port{
+    display: flex;
+    justify-content:flex-start;
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+}
+
+.card{
+    padding: 1%;
+}
+
+.card img{
+    opacity: 1;
+}
+
+.card img:hover{
+    opacity: 0.2;
+    transition: 1s;
+}
+
+
+/* icone projetos */
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-image: url(assets/imgs/bolo.jpg);
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    border-radius: 25px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: var(--second_color);
+    border-radius: 25px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .container img{
+    background-size: contain;
+    
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 800px){
+
+    .top_nav{
+        background-color: var(--second_color);
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        margin: 0;
+
+        flex-direction: column;
+        font-size: AUTO;
+    
+    }
+
+    .h1_top_nav{
+        font-size: 100%;
+    }
+
+   .ul_nav{
+    display: flex;
+    flex-direction: ROW;
+    margin: 0;
+    padding: 0;
+   }
+
+   .ul_nav a{
+    font-size: 9px;
+    margin: 0;
+    padding: 0;
+   }
+
+   .header{
+        letter-spacing: 4px;
+        background-image: linear-gradient(to bottom, transparent, white), url(assets/imgs/header.jpg);
+        background-position: center top;
+        background-size: cover;
+        background-repeat:no-repeat;
+     }
+     
+     .header_main h1{
+         font-size: 15rem;
+         margin-bottom: 0;
+         color: var(--second_color);
+     }
+     
+     .header_main p{
+         font-size: 200%;
+         margin-bottom: 0;
+         color: black;
+     }
+
+
+   }
+    
+ 
+  
