@@ -71,27 +71,27 @@ header{
    display: flex;
    justify-content: center;
    align-items: center;
-   padding-bottom:30px;
-   padding-top: 250px;
+   padding-top: 150px;
+   padding-bottom: 150px;
+   padding-left: 150px;
+   padding-right: 150px;
    letter-spacing: 4px;
    background-image: linear-gradient(to bottom, transparent, white), url(header.jpg);
    background-position: center top;
    background-size: cover;
    background-repeat:no-repeat;
-
-  
 }
 
 .header_main h1{
-    font-size: 15rem;
+    font-size: 10vw;
     margin-bottom: 0;
     color: var(--second_color);
 }
 
 .header_main p{
-    font-size: 1vw;
+    font-size: 1.5vw;
     margin-bottom: 0;
-    color: black;
+    color:black;
 }
 
 .header_main{
@@ -99,7 +99,6 @@ header{
     animation-name: example0;
     animation-duration: 3s;
     animation-iteration-count:1;
-  
   
 }
 
@@ -377,18 +376,21 @@ header{
         background-position: center top;
         background-size: cover;
         background-repeat:no-repeat;
+        padding-bottom: 400px;
+
      }
      
      .header_main h1{
-         font-size: 15rem;
+         font-size: 40vw;
          margin-bottom: 0;
          color: var(--second_color);
      }
      
      .header_main p{
-         font-size: 200%;
+         font-size: 4vw;
          margin-bottom: 0;
          color: black;
+
      }
 
 
