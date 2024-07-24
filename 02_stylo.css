@@ -243,8 +243,8 @@ header{
 
 .container {
     position: relative;
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 20px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 25px;
@@ -253,8 +253,8 @@ header{
   
   .image {
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 200px;
+    height: 200px;
     background-size: cover;
     border-radius: 25px;
   }
@@ -265,8 +265,8 @@ header{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 50%;
+    height: 200px;
+    width: 200px;
     opacity: 0;
     transition: .5s ease;
     background-color: var(--second_color);
@@ -284,7 +284,7 @@ header{
   
   .text {
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -296,7 +296,7 @@ header{
 
 
   .part2{
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: row;
   }
@@ -387,11 +387,10 @@ header{
         width: 100%;
          height: 100%;
    }
-   
    .image {
     display: block;
-    width: 70%;
-    height: 70%;
+    width: 200px;
+    height: 200px;
     background-size: cover;
     border-radius: 25px;
   }
@@ -402,8 +401,8 @@ header{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 70%;
+    height: 200px;
+    width: 200px;
     opacity: 0;
     transition: .5s ease;
     background-color: var(--second_color);
@@ -411,7 +410,6 @@ header{
   }
 
   .part2{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
   }
