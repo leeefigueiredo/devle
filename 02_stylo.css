@@ -237,9 +237,7 @@ header{
 
 /* portfolio */
 
-.portfolio{
-    padding-top: 100px;
-}
+
 
 /* icone projetos */
 
@@ -296,6 +294,12 @@ header{
     text-align: center;
   }
 
+
+  .part2{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+  }
 
   @media screen and (max-width: 800px){
 
@@ -404,6 +408,12 @@ header{
     transition: .5s ease;
     background-color: var(--second_color);
     border-radius: 25px;
+  }
+
+  .part2{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
   }
 
 }
