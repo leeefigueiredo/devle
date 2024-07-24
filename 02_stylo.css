@@ -6,6 +6,10 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 main{
     padding: 9%;
 }
@@ -119,11 +123,11 @@ header{
     padding-top: 100px;
 }
 
-.about_me_txt h1, .class h1{
+.about_me_txt h1, .portfolio h1, .contato h1{
     font-size: 3vw;
 }
 
-.about_me_txt p, .class p{
+.about_me_txt p, .portfolio p, .contato p{
     font-size: 1.5vw;
 }
 
@@ -233,8 +237,8 @@ header{
 
 /* portfolio */
 
-.class{
-    
+.portfolio{
+    padding-top: 100px;
 }
 
 /* icone projetos */
@@ -357,11 +361,11 @@ header{
     }
 
     
-    .about_me_txt h1, .class h1{
+    .about_me_txt h1, .portfolio h1, .contato h1{
         font-size:6vw;
     }
 
-    .about_me_txt p, .class p{
+    .about_me_txt p, .portfolio p, .contato p{
         font-size: 4vw;
     }
 
