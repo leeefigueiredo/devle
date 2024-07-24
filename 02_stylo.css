@@ -59,12 +59,17 @@ body{
     font-size: 15px;
 }
 
-.li_nav a{
+.li_nav a, footer a{
     text-decoration: none;
     color: var(--backgrond-color);
 }
 
 .li_nav a:hover{
+    color: black;
+    transition: .5s ease;
+}
+
+footer a:hover{
     color: black;
     transition: .5s ease;
 }
@@ -307,6 +312,19 @@ header{
     background-color: var(--second_color);
   }
 
+  footer div{
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+    justify-content: center;
+  }
+
+  footer p{
+    text-align: center;
+    color: white;
+  }
+
+
   @media screen and (max-width: 800px){
 
     .top_nav{
@@ -430,4 +448,18 @@ header{
     .text{
         font-size: 4vw;
     }
+
+    footer div{
+        width: 100%;
+        height: 70px;
+        display: inline-block;
+        justify-content: center;
+      }
+
+      footer{
+        width: 100%;
+        height: 70px;
+        background-color: var(--second_color);
+      }
+    
 }
