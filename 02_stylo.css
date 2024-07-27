@@ -49,7 +49,7 @@ body{
 .h1_top_nav{
     color: var(--backgrond-color);
     letter-spacing: 4px;
-    margin-left: 1rem;
+    margin-left: 0.8rem;
 }
 
 .li_nav{
@@ -339,8 +339,8 @@ header{
     
 }
     .wpp img{
-        width: 90px;
-        height: 90px;
+        width: 60px;
+        height: 60px;
         animation-name: example6;
         animation-duration:5s;
         animation-delay: 5s;
@@ -355,7 +355,7 @@ header{
           }
 
         25%{
-            transform: translatey(-100px)
+            transform: translatey(-75px)
         }
 
         50% {
