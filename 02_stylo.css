@@ -244,7 +244,7 @@ header{
 /* portfolio */
 
 .portfolio{
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -252,7 +252,7 @@ header{
 
 .container {
     position: relative;
-    width: 200px;
+    width: 300px;
     height: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -331,13 +331,43 @@ header{
 
   .wpp{
     position: fixed;
-    bottom: 20px;
+    bottom: 100px;
     right: 20px;
     width: 100px;
     height: 100px;
-    background-color: red;
+    
     
 }
+    .wpp img{
+        width: 90px;
+        height: 90px;
+        animation-name: example6;
+        animation-duration:5s;
+        animation-delay: 5s;
+      
+        animation-iteration-count:infinite;
+        border-radius: 25px;
+    }
+
+    @keyframes example6 {
+        0% {
+            transform: translatey(0px);
+          }
+
+        25%{
+            transform: translatey(-100px)
+        }
+
+        50% {
+            transform: translatey(0px);
+          }
+        75% {
+              transform: translatey(0px);
+            }
+        100% {
+              transform: translatey(0px);
+            }
+        }
 
 
 
@@ -470,6 +500,8 @@ header{
         width: 50px;
         height: 50px;
     }
+
+    
     
     .text{
         font-size: 4vw;
