@@ -49,13 +49,13 @@ body{
 .h1_top_nav{
     color: var(--backgrond-color);
     letter-spacing: 4px;
-    margin-left: 0.8rem;
+    margin-left: 10px
 }
 
 .li_nav{
     padding: 11px;
     display:inline-block;
-    margin-left: 1rem;
+    margin-left: 5px;
     letter-spacing: 3px;
     font-size: 15px;
 }
@@ -130,7 +130,7 @@ header{
 }
 
 .about_me_txt h1, .portfolio h1, .contato h1{
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 .about_me_txt p, .portfolio p, .contato p{
@@ -383,7 +383,7 @@ header{
   @media screen and (max-width: 800px){
 
     main{
-        padding:10%;
+        padding:13%;
     }
   
     
@@ -448,11 +448,11 @@ header{
     }
 
     .about_me_txt h1, .portfolio h1, .contato h1{
-        font-size:6vw;
+        font-size:7vw;
     }
 
     .about_me_txt p, .portfolio p, .contato p{
-        font-size: 4vw;
+        font-size: 5vw;
     }
 
     .sobre_mim{
