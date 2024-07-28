@@ -332,11 +332,13 @@ header{
   .wpp{
     position: fixed;
     margin: 0;
-    padding: 0;
+    padding-right: 10px;
     bottom: 1px;
     right: 1px;
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
+    
+
     
     
 }
