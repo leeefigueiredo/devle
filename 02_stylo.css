@@ -153,7 +153,7 @@ header{
 /* Início Skill */
 
 .Tech_skill{
-    width: 50%;
+    width: 100%;
 }
 
 .text_skill{
@@ -654,4 +654,15 @@ header{
     .menu > li:not(:last-child) {
       border-bottom: 1px solid var(--second_color);
     }
+  }
+
+  /* estilo novo de background por elemento */
+
+  .sobre_mim, .Tech_skill, .portfolio, .contato{
+    background-color: white;
+    border: 1px solid var(--second_color);
+    border-radius: 15px;
+    padding: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
