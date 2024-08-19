@@ -10,10 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 
-main{
-    padding-left: 15%;
-    padding-right: 15%;
-}
+
 
 body{
     font-family: "Quicksand";
@@ -35,6 +32,9 @@ body{
     
 }
 
+main{
+  padding: 10%;
+}
 
 @keyframes example0 {
     0%   {left:-1000px; top:0px;}
@@ -248,6 +248,7 @@ header{
 
 .portfolio{
     height: auto;
+    width: 100%;
 }
 
 
@@ -380,13 +381,14 @@ header{
 
   .contato{
     padding-bottom: 100px;
+    width: 100%;
   }
 
 
   @media screen and (max-width: 800px){
 
     main{
-        padding:13%;
+        padding:5%;
     }
   
     
@@ -662,7 +664,7 @@ header{
     background-color: white;
     border: 1px solid var(--second_color);
     border-radius: 15px;
-    padding: 70px;
+    padding: 10px ;
     margin-top: 10px;
     margin-bottom: 10px;
   }
