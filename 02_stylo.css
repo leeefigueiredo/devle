@@ -388,7 +388,7 @@ header{
   @media screen and (max-width: 800px){
 
     main{
-        padding:5%;
+      
     }
   
     
@@ -660,11 +660,36 @@ header{
 
   /* estilo novo de background por elemento */
 
-  .sobre_mim, .Tech_skill, .portfolio, .contato{
+   .sobre_mim, .Tech_skill, .portfolio, .contato{
     background-color: white;
     border: 1px solid var(--second_color);
     border-radius: 15px;
-    padding: 10px ;
+    padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
+  .sobre_mim:hover{
+    box-shadow: -14px 16px 16px -12px var(--second_color);
+    transition: .5s ease;
+    }
+
+  .Tech_skill:hover{
+    box-shadow: -14px 16px 16px -12px var(--second_color);
+    transition: .5s ease;
+    }
+
+  .portfolio:hover{
+    box-shadow: -14px 16px 16px -12px var(--second_color);
+    transition: .5s ease;
+    }
+
+  .contato:hover{
+    box-shadow: -14px 16px 16px -12px var(--second_color);
+    transition: .5s ease;
+    }
+
+  .sobre_mim:hover{
+    box-shadow: -14px 16px 16px -12px var(--second_color);
+    transition: .5s ease;
+    }
