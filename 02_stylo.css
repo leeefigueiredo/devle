@@ -371,9 +371,6 @@ header{
     width: auto;
     height: auto;
     
-
-    
-    
 }
     .wpp img{
         width: 60px;
@@ -417,10 +414,7 @@ header{
 
   @media screen and (max-width: 800px){
 
-    main{
-      
-    }
-  
+    
     
     .top_nav{
         background-color: var(--second_color);
