@@ -2,7 +2,7 @@
     --backgrond-color: white;
     --second_color: #7288ab;
     --Third_color: rgb(35, 73, 135);
-    --barra: 20px;
+    --barra: 5px;
     
 }
 
@@ -123,21 +123,22 @@ header{
 
 .about_me_txt{
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     /* border: 2px solid red; */
     font-family: "Quicksand";
     padding-top: 100px;
 }
 
 .about_me_txt h1, .portfolio h1, .contato h1{
-    font-size: 3.5vw;
+    font-size: 1.5vw;
+    text-align: center;
 
 
 }
 
 .about_me_txt p, .portfolio p, .contato p{
-    font-size: 1.5vw;
-    text-align: justify;
+    font-size: 1vw;
+    text-align: center;
 }
 
 .sobre_mim{
