@@ -156,7 +156,13 @@ header{
 
 .new_skills{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  
+}
+
+.new_skills p{
+  text-align: justify;
+  margin-bottom: 100px;
 }
 
 .Tech_skill{
@@ -166,6 +172,10 @@ header{
 .text_skill{
     color: black;
     text-transform: uppercase;
+    height: 50px;
+    border: 2px solid red;
+    margin-top: 1%;
+    
     
 }
 
@@ -190,8 +200,8 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width: 80%;
-    margin-bottom: 30px;
-    margin-left: 50px;
+  
+   
     animation-name: example2;
     animation-duration: 30s;
     animation-iteration-count:3;
@@ -208,8 +218,8 @@ header{
     height: var(--barra);
     width:30%;
     padding: auto;
-    margin-bottom: 30px;
-    margin-left: 50px;
+  
+    
     animation-name: example3;
     animation-duration: 30s;
     animation-iteration-count:3;
@@ -225,8 +235,8 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width: 22%;
-    margin-bottom: 30px;
-    margin-left: 50px;
+  
+    
     animation-name: example4;
     animation-duration: 30s;
     animation-iteration-count:3;
@@ -242,8 +252,7 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width: 22%;
-    margin-bottom: 30px;
-    margin-left: 40px;
+  
     animation-name: example5;
     animation-duration: 30s;
     animation-iteration-count:3;
