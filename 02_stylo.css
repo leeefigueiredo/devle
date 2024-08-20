@@ -507,7 +507,7 @@ header{
          height: 100%; */
          height: auto;
          width: AUTO;
-         padding-left: 0px;
+         margin-left: 0PX;
     }
     .image {
         display: block;
