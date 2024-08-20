@@ -153,6 +153,12 @@ header{
 
 /* Início Skill */
 
+
+.new_skills{
+  display: flex;
+  flex-direction: row;
+}
+
 .Tech_skill{
     width: 100%;
 }
