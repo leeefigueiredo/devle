@@ -161,13 +161,19 @@ header{
 }
 
 .new_skills p{
-  text-align: justify;
+  text-align: ;
   margin-bottom: 100px;
   
 }
 
 .Tech_skill{
     width: 100%;
+    
+}
+
+.Tech_skill p{
+  text-align: start;
+ 
 }
 
 .text_skill{
@@ -201,7 +207,7 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width: 80%;
-  
+    margin-top: -15px;
    
     animation-name: example2;
     animation-duration: 30s;
@@ -714,4 +720,16 @@ header{
   .sobre_mim:hover{
     box-shadow: -14px 16px 16px -12px var(--second_color);
     transition: .5s ease;
+    }
+
+
+    .new2{
+      border: 2px solid red;
+     
+      
+    }
+
+    .new2 p{
+     text-align: ;
+      
     }
