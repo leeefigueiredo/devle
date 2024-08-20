@@ -163,6 +163,7 @@ header{
 .new_skills p{
   text-align: justify;
   margin-bottom: 100px;
+  
 }
 
 .Tech_skill{
@@ -172,9 +173,9 @@ header{
 .text_skill{
     color: black;
     text-transform: uppercase;
-    height: 50px;
+    height: 30px;
     border: 2px solid red;
-    margin-top: 1%;
+    
     
     
 }
