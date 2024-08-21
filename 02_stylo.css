@@ -225,7 +225,7 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width:30%;
-    padding: auto;
+    margin-top: -15px;
   
     
     animation-name: example3;
@@ -243,6 +243,7 @@ header{
     background-color: var(--second_color);
     height: var(--barra);
     width: 22%;
+    margin-top: -15px;
   
     
     animation-name: example4;
