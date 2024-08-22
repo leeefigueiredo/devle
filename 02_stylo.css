@@ -96,12 +96,14 @@ header{
     font-size: 15vw;
     margin-bottom: 0;
     color: var(--second_color);
+    text-align: center;
 }
 
 .header_main p{
     font-size: 1.5vw;
     margin-bottom: 0;
     color:black;
+    text-align: center;
 }
 
 .header_main{
@@ -109,7 +111,8 @@ header{
     animation-name: example0;
     animation-duration: 3s;
     animation-iteration-count:1;
-    padding-bottom: 150px ;
+    padding-bottom: 150px;
+  
   
 }
 
