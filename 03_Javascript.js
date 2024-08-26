@@ -1,3 +1,5 @@
+// Calculo para Anos
+
 const dataAtual = new Date();
 const anoAtual = dataAtual.getFullYear();
 outputIdade.innerHTML = anoAtual - 1993; 
