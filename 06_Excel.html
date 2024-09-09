@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+
+   <p>pergunta1</p><br><input type="text" id="meuInput1" placeholder="Digite algo">
+   <p>pergunta2</p><br><input type="text" id="meuInput2" placeholder="Digite algo">
+   <p>pergunta3</p><br><input type="text" id="meuInput3" placeholder="Digite algo">
+   <p>pergunta4</p><br><input type="text" id="meuInput4" placeholder="Digite algo">
+   <br><br>
+   <button onclick="pegarValor()">Enviar</button>
+   <br>
+   <p>Sua nota é: </p>
+   <output id="meuOutput"></output>
+   
+
+   <script>
+      
+      
+      function pegarValor() {
+         
+         let valor1 = document.getElementById("meuInput1").value;
+         let valor2 = document.getElementById("meuInput2").value;
+         let valor3 = document.getElementById("meuInput3").value;
+         let valor4 = document.getElementById("meuInput4").value;
+         console.log(valor1); 
+         console.log(valor2); 
+         console.log(valor3); 
+         console.log(valor4); 
+         
+         let total = 0
+         
+         if(valor1 === "a"){
+            total = total + 1
+         }
+         
+         if(valor2 === "a"){
+            total = total + 1
+         }
+         
+         if(valor3 === "a"){
+            total = total + 1
+         }
+         
+         if(valor4 === "a"){
+            total = total + 1
+         }
+   
+         console.log(total)
+
+         document.getElementById("meuOutput").value = total;
+      }
+      
+      
+     
+
+   </script>
+
+
+</body>
+</html>
