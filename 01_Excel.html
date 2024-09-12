@@ -34,8 +34,10 @@
    <main>
 
 
-      <h1>Teste de Excel</h1>
-      <h2>Infome seu nome para o certificado: <input type="text" id="meuInput" name="meuInput"> </h2>
+      <h1>Excel Test</h1>
+      <h3>Infome seu nome para o certificado:</h3> 
+      <input type="text" id="inputAluno" name="inputAluno">
+      <br><br>
       
 
          <div class="questao">
@@ -51,7 +53,7 @@
             </ol>
 
          <label>Qual a alternativa correta?</a><br><br>
-               <select name="viagem" id="meuInput1">
+               <select name="option" id="meuInput1">
                   <option value="a">Escolha apenas uma alternativa</option>
                   <option value="a">A</option>
                   <option value="b">B</option>
@@ -77,7 +79,7 @@
       </ol>
 
       <label>Qual a alternativa correta?</a><br><br>
-            <select name="viagem" id="meuInput2">
+            <select name="option" id="meuInput2">
                <option value="a">Escolha apenas uma alternativa</option>
                <option value="a">A</option>
                <option value="b">B</option>
@@ -104,7 +106,7 @@
       </ol>
 
       <label>Qual a alternativa correta?</a><br><br>
-            <select name="viagem" id="meuInput3">
+            <select name="option" id="meuInput3">
                <option value="a">Escolha apenas uma alternativa</option>
                <option value="a">A</option>
                <option value="b">B</option>
@@ -129,7 +131,7 @@
             </ol>
 
             <label>Qual a alternativa correta?</a><br><br>
-                  <select name="viagem" id="meuInput4">
+                  <select name="option" id="meuInput4">
                      <option value="a">Escolha apenas uma alternativa</option>
                      <option value="a">A</option>
                      <option value="b">B</option>
@@ -140,16 +142,18 @@
          </div>
          
          <br><br>
-         <button onclick="pegarValor()">Enviar</button>
+         <button onclick="pegarValor(); nomeAluno()">Enviar</button>
          <br><br>
          <hr>
 
-         <p>Sua nota é: </p>
-         <output id="meuOutput"></output>
+         <p>Sua nota é: </p> <output id="meuOutput"></output>
+         <output id="outputAluno"></output>
          
+         <br><br><br>
+
 </main>
 
-   <script src="03_Javascript.js">  </script>    
+   <script src="03_Javascript.js"> </script>    
 
 </body>
 </html>

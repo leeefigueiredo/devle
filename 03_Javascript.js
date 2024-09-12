@@ -10,13 +10,21 @@ outputTime.innerHTML = anoAtual - 2022;
 
 // teste de excel
 
+function nomeAluno() {
+document.getElementById("outputAluno").value = nomeAluno;
+
+let nomeAluno = document.getElementById("inputAluno").value;
+
+}
 
 function pegarValor() {
-         
+
+    
     let valor1 = document.getElementById("meuInput1").value;
     let valor2 = document.getElementById("meuInput2").value;
     let valor3 = document.getElementById("meuInput3").value;
     let valor4 = document.getElementById("meuInput4").value;
+    
     console.log(valor1); 
     console.log(valor2); 
     console.log(valor3); 
@@ -42,7 +50,9 @@ function pegarValor() {
 
     console.log(total)
 
-    document.getElementById("meuOutput").value = total;
+   
+    document.getElementById("meuOutput").value =  total;
  }
  
- 
+
+
