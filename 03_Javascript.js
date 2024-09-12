@@ -10,13 +10,6 @@ outputTime.innerHTML = anoAtual - 2022;
 
 // teste de excel
 
-function nomeAluno() {
-document.getElementById("outputAluno").value = nomeAluno;
-
-let nomeAluno = document.getElementById("inputAluno").value;
-
-}
-
 function pegarValor() {
 
     
@@ -32,20 +25,28 @@ function pegarValor() {
     
     let total = 0
     
-    if(valor1 === "a"){
+    if(valor1 === "b"){
        total = total + 1
+    }else{valor1 === "Escolha apenas uma alternativa"}{
+        total = total + 0
     }
     
-    if(valor2 === "a"){
+    if(valor2 === "b"){
        total = total + 1
+    }else{valor1 === "Escolha apenas uma alternativa"}{
+        total = total + 0
     }
     
-    if(valor3 === "a"){
+    if(valor3 === "b"){
        total = total + 1
+    }else{valor1 === "Escolha apenas uma alternativa"}{
+        total = total + 0
     }
     
-    if(valor4 === "a"){
+    if(valor4 === "b"){
        total = total + 1
+    }else{valor1 === "Escolha apenas uma alternativa"}{
+        total = total + 0
     }
 
     console.log(total)
