@@ -1,4 +1,12 @@
 // teste de excel
+        
+function mostrarNome() {
+    let nomeAluno = document.getElementById("inputAluno").value;
+
+    document.getElementById("outputAluno").innerHTML = nomeAluno
+}
+
+;
 
 function pegarValor() {
 
