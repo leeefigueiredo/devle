@@ -11,7 +11,6 @@ outputTime.innerHTML = anoAtual - 2022;
 // teste de excel
 
 
-
 function pegarValor() {
          
     let valor1 = document.getElementById("meuInput1").value;
