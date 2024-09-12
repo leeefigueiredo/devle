@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-
+   <link rel="stylesheet" href="02_Excel.css">
    <style>
       main {
          padding-left: 5%;
@@ -59,7 +59,7 @@
       </div>
 
       <br><br>
-      
+
       <div class="questao">
          <h2>Questão 2</h2>
          <br>
@@ -87,8 +87,8 @@
       </div>
 
       <br><br>
-      
-   
+
+
       <div class="questao">
          <h2>Questão 3</h2>
          <br>
@@ -113,7 +113,7 @@
       </div>
 
       <br><br>
-   
+
       <div class="questao">
          <h2>Questão 4</h2>
          <br>
@@ -138,14 +138,22 @@
       </div>
 
       <br><br>
-      <button onclick="pegarValor(); mostrarNome()">Enviar</button>
+      <!-- <button onclick="pegarValor(); mostrarNome()">Enviar</button> -->
       <br><br>
-      
-   
 
-      <p>Sua nota é: </p>
-      <output id="outputAluno"></output>
-      <output id="meuOutput"></output>
+
+      <button onclick="mostrarPopup();pegarValor();mostrarNome()">Finalizar Teste</button>
+      <div id="popup" class="popup">
+         <div class="popup-content">
+            <span class="close" onclick="fecharPopup()">×</span>
+            <p>Parabéns!!!</p>
+            <p> Prezado(a) <output id="outputAluno"></output>, <br> Sua nota é  <output id="meuOutput"></output></p>
+           
+            <output id="meuOutput"></output>
+
+         </div>
+      </div>
+
 
 
       <br><br><br>
