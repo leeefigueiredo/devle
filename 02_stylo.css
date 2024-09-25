@@ -281,7 +281,10 @@ header{
 
 .portfolio{
     height: auto;
-   
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
 
@@ -407,6 +410,25 @@ header{
             }
         }
 
+  
+  #excelcontent{
+    border: 1px solid var(--second_color);
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    border-radius:25px;
+     
+  }
+
+  #excelcontent p{
+    color: black;
+  }
+
+
+  #excelcontent:hover{
+    box-shadow: -14px 16px 16px -12px var(--second_color);
+    transition: .5s ease;
+  }
 
 
   .contato{
