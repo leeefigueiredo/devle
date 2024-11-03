@@ -66,7 +66,7 @@
 
             <h2>Projetos</h2>
 
-            <div class="carousel">
+            <!-- <div class="carousel">
                 <div id="slider">
                     <input type="radio" name="slider" id="slide1" checked>
                     <input type="radio" name="slider" id="slide2">
@@ -115,7 +115,7 @@
                         <label for="slide4"></label>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <p>Ideias que saíram do “papel” e estão na WEB com a nossa ajuda. <br>
                 Leads pages, Sites Institucionais,
@@ -125,49 +125,61 @@
         </main>
 
         <div id="contato">
-            <h2>contato</h2>
 
-            <div class="biografia">
-                <h3>Antes de ir,<br>Deixa eu me apresentar...<br>Sou Leandro Figueiredo</h3>
-                <p>Pai do Caetano, residente em São Paulo, vegetariano, campeão de Jiu-Jitsu, amante das artes e do cinema. Comecei na área de tecnologia através do suporte técnico e infraestrutura de redes, mas atualmente sou Desenvolvedor WEB.<br> 
-                    DevLe é uma abreviação de Developer (desenvolvedor em inglês) e Leandro. <br>
-                    Vamos nos conectar
-                </p>
-            
+            <div class="title_contato"><h2>Contato</h2></div>
+          
+            <div class="contato_container">
+                <div class="biografia"> 
+                <div>
+                    <h3>Antes de ir,<br>Deixa eu me apresentar...<br>Sou Leandro Figueiredo</h3>
+                    <p>Pai do Caetano, residente em São Paulo, vegetariano, campeão de Jiu-Jitsu, amante das artes e do
+                        cinema. Comecei na área de tecnologia através do suporte técnico e infraestrutura de redes, mas
+                        atualmente sou Desenvolvedor WEB.<br>
+                        DevLe é uma abreviação de Developer (desenvolvedor em inglês) e Leandro. <br>
+                        Vamos nos conectar
+                    </p>
+
+                </div>
             </div>
 
             <div class="solicite">
-                <h2>contato</h2>
-                <form class="contact-form" action="https://formsubmit.co/fa1fc2b8b6a4aaf2cbe4144214905cae" method="POST">
-                    <div>
-                        <label for="email">E-mail</label>
-                        <input type="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="message">Mensagem</label>
-                        <input type="text" id="message" name="message" required>
-                    </div>
-                    <button type="submit">Send</button>
-                    <!-- <input type="hidden" name="_next" value="https://adrianasaty.github.io/easy-portfolio/thanks.html"> -->
-                    <input type="hidden" name="_subject" value="New submission!">
-                </form>
+                
+                    <h2>Solicite um orçamento</h2>
 
-              
+                    <form action="https://formspree.io/f/mnnqplea" method="POST">
+
+
+                        <input name="Name" id="name" type="text" placeholder="Nome ou Empresa" style="height:50px"><br><br>
+
+                        <input name="Email" id="email" type="email" placeholder="E-mail" style="height:50px"><br><br>
+
+                        <input type="text" id="telefone" name="telefone" placeholder="Telefone" style="height:50px" ><br><br>
+
+                        <textarea id="subject" name="subject" placeholder="Conte mais sobre seu projeto. Estamos ansiosos para te ajudar. Conte conosco!" style="height:200px"></textarea>
+
+                      
+
+                        <button type="submit">Submit</button>
+                    </form>
+
+                
             </div>
-
-
-            </div>
-
-
 
         </div>
+
+        </div>
+
+
+
+    </div>
     </div>
 
     <footer>
         <p>footer</p>
     </footer>
 
-
+    <script src="03_Javascript.js"> 
+    </script>
 </body>
 
 

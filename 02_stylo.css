@@ -10,6 +10,7 @@ html {
 body {
   margin: 0px;
   padding: 0px;
+  height: 100;
 }
 
 .content {
@@ -110,13 +111,16 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center
-
 }
 
 #contato {
   border: 2px yellow solid;
   width: 100%;
-  height: 700px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  /* align-items: end; */
 }
 
 footer {
@@ -125,7 +129,52 @@ footer {
   height: 45px;
 }
 
-input[type=text]{
+input[type=text] {
   height: 100px;
 }
 
+input::placeholder {
+  white-space: pre-line;
+}
+
+input {
+  width: 90%;
+}
+
+textarea {
+  width: 90%;
+  white-space: pre-line
+}
+
+
+
+.title_contato {
+  justify-items: center;
+}
+
+.biografia {
+  background-color: rosybrown;
+  width: 50%;
+  height: 100%;
+
+
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.solicite {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+
+}
+
+.contato_container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80%;
+  justify-content: end;
+  align-items: end;
+}
