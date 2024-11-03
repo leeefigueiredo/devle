@@ -125,3 +125,7 @@ footer {
   height: 45px;
 }
 
+input[type=text]{
+  height: 100px;
+}
+
