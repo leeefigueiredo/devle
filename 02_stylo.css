@@ -127,6 +127,21 @@ footer {
   border: 1px yellow solid;
   width: 99.8%;
   height: 45px;
+  font-size: small;
+  
+  
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+
+}
+
+.div_footer{
+ 
+
+  display: flex;
+  flex-direction: row;
+  
 }
 
 input[type=text] {
