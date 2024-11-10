@@ -116,14 +116,153 @@ header {
   transition: .2s;
 }
 
+
 .foguete01{
-  position: relative;
-  margin-left: 1%;
-  margin-bottom: 50%;
-  border: 2px solid  red;
-  
+  display: flex;
+  position:absolute;
+  margin-right: 22%;
+  margin-bottom: -15%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  border: 2px solid black;
+
+  animation-name: example2;
+  animation-duration:10s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+}
+
+
+@keyframes example2 {
+  0% {
+      transform: translatey(0px);
+    }
+
+  25%{
+      transform: translatex(-40px)
+  }
+
+  50% {
+      transform: translatex(40px);
+      transform: translatey(-40px)
+    }
+  75% {
+        transform: translatey(0px);
+      }
+  100% {
+        transform: translatey(0px);
+      }
+  }
+
+
+.foguete02{
+  display: flex;
+  position:absolute;
+  margin-right: 0%;
+  margin-bottom: 25%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  border: 2px solid black;
+
+  animation-name: example3;
+  animation-duration:10s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+
 
 }
+
+@keyframes example3 {
+  0% {
+      transform: translatey(0px);
+    }
+
+  25%{
+      transform: translatex(-40px)
+  }
+
+  50% {
+      transform: translatex(1px);
+      transform: translatey(-40px)
+    }
+  75% {
+        transform: translatey(30px);
+      }
+  100% {
+        transform: translatey(0px);
+      }
+  }
+
+.foguete03{
+  display: flex;
+  position:absolute;
+  margin-right: -28%;
+  margin-bottom: 0%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  border: 2px solid black;
+
+
+  animation-name: example2;
+  animation-duration:15s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+}
+
+.foguete04{
+  display: flex;
+  position:absolute;
+  margin-right: 0%;
+  margin-bottom: -45%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  border: 2px solid black;
+
+
+  animation-name: example2;
+  animation-duration:5s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+}
+
+.foguete05{
+  display: flex;
+  position:absolute;
+  margin-right: 35%;
+  margin-bottom: 0%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  border: 2px solid black;
+
+
+  animation-name: example2;
+  animation-duration:20s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+}
+
+.foguete06{
+  display: flex;
+  position:absolute;
+  margin-right: -28%;
+  margin-bottom: 25%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20%;
+  border: 2px solid black;
+
+
+  animation-name: example2;
+  animation-duration:10s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+}
+
 .animation {
   /* background-color: green; */
   width: 50%;
@@ -147,7 +286,34 @@ header {
   display: flex;
   flex-direction: column;
   
+
+  animation-name: example1;
+  animation-duration:10s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+
+
 }
+
+@keyframes example1 {
+  0% {
+      transform: translatey(0px);
+    }
+
+  25%{
+      transform: translatey(-40px)
+  }
+
+  50% {
+      transform: translatey(0px);
+    }
+  75% {
+        transform: translatey(0px);
+      }
+  100% {
+        transform: translatey(0px);
+      }
+  }
 
 
 .web .line{
@@ -210,6 +376,12 @@ header {
   height: 65%;
   background-color: white;
   border: 3px solid black;
+
+  animation-name: example1;
+  animation-duration:10s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+
 }
 
 .mheader{
