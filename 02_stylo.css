@@ -43,7 +43,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10PX;
+  padding: 2px;
 
 
   width: 79.6%;
@@ -103,6 +103,27 @@ header {
   font-size: 25px;
 }
 
+.open a{
+  background-color: #FFBB00;
+  padding: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.open a:hover{
+  color: rgb(90, 88, 88);
+  transition: .2s;
+}
+
+.foguete01{
+  position: relative;
+  margin-left: 1%;
+  margin-bottom: 50%;
+  border: 2px solid  red;
+  
+
+}
 .animation {
   /* background-color: green; */
   width: 50%;
@@ -116,12 +137,69 @@ header {
 .web {
   position: relative;
   margin-left: 10%;
-  margin-bottom: 40%;
+  margin-bottom: 20%;
 
-  width: 60%;
+  width: 40%;
   height: 40%;
-  background-color: aqua;
+  background-color: white;
+  border: 3px solid black;
+
+  display: flex;
+  flex-direction: column;
+  
 }
+
+
+.web .line{
+  width: 50%;
+}
+
+.wnav{
+  width: 100%;
+  height: 5%;
+  background-color: #FFBB00;
+ 
+
+}
+
+.wheader{
+
+}
+
+.wimg{
+  background-color: #FFBB00;
+  
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.wimg p, .mimg p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.estrela{
+  padding: 10px;
+}
+
+.wtext{
+  
+}
+
+.line{
+  background-color: black;
+  width: 100%;
+  height: 5px;
+  margin-top: 15px;
+}
+
 
 .mobile {
   position: relative;
@@ -129,8 +207,24 @@ header {
   right: 20%;
 
   width: 60%;
-  height: 70%;
-  background-color: blueviolet;
+  height: 65%;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.mheader{
+  padding: 10px ;
+  
+}
+
+.mimg{
+  background-color: #FFBB00;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
