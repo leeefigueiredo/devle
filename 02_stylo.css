@@ -5,6 +5,10 @@ html {
   background: linear-gradient(360deg, rgba(170, 170, 170, 1) 0%, rgba(238, 238, 238, 1) 100%);
   margin: 0px;
   padding: 0px;
+
+  font-family: "Krub", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 body {
@@ -14,7 +18,7 @@ body {
 }
 
 .content {
-  border: 1px red solid;
+  /* border: 1px red solid; */
   height: auto;
   padding-left: 10%;
   padding-right: 10%;
@@ -23,7 +27,7 @@ body {
 }
 
 header {
-  border: 2px yellow solid;
+  /* border: 2px yellow solid; */
   width: 100%;
   height: 775px;
 }
@@ -32,22 +36,45 @@ header {
   position: fixed;
   top: 20px;
 
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, #FFBB00 100%);
+  border-radius: 50px;
 
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10PX;
 
-  border: 1px solid blue;
 
   width: 79.6%;
   height: 80px;
 
+
 }
+
+.top-nav h1{
+ padding-left: 50px;
+ 
+}
+
 
 .li_nav {
   display: inline-block;
+  padding: 10PX;
+  text-decoration: none;
+  
 
+}
+
+.link_nav{
+  text-decoration: none;
+  color: black;
+}
+
+.link_nav:hover{
+  transition: .2s;
+  color: rgb(90, 88, 88);
+  text-decoration: 
 }
 
 .head_open {
@@ -58,7 +85,7 @@ header {
 }
 
 .open {
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
   width: 50%;
   height: 100%;
 
@@ -67,8 +94,17 @@ header {
   justify-content: center;
 }
 
+.open h1{
+  font-size: 100px;
+  margin: 0px;
+}
+
+.open h2{
+  font-size: 25px;
+}
+
 .animation {
-  background-color: green;
+  /* background-color: green; */
   width: 50%;
   height: 100%;
 
@@ -103,7 +139,7 @@ p {
 }
 
 main {
-  border: 2px yellow solid;
+  /* border: 2px yellow solid; */
   width: 100%;
   height: 775px;
 
@@ -114,9 +150,9 @@ main {
 }
 
 #contato {
-  border: 2px yellow solid;
+  /* border: 2px yellow solid; */
   width: 100%;
-  height: 800px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -124,13 +160,23 @@ main {
 }
 
 footer {
-  border: 1px yellow solid;
+  /* border: 1px yellow solid; */
   width: 99.8%;
   height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+footer div{
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 input[type=text] {
-  height: 100px;
+  height: 50px;
 }
 
 input::placeholder {
@@ -139,11 +185,18 @@ input::placeholder {
 
 input {
   width: 90%;
+  height: 100px;
+  font-family: "Krub", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 textarea {
   width: 90%;
-  white-space: pre-line
+  white-space: pre-line;
+  font-family: "Krub", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 
@@ -153,7 +206,7 @@ textarea {
 }
 
 .biografia {
-  background-color: rosybrown;
+  /* background-color: rosybrown; */
   width: 50%;
   height: 100%;
 
@@ -164,10 +217,23 @@ textarea {
 }
 
 .solicite {
-  background-color: green;
+  /* background-color: green; */
   width: 50%;
   height: 100%;
+ 
 
+  display: flex;
+  flex-direction: column;
+
+
+
+
+}
+
+form{
+  /* border: 2px solid red; */
+  padding: 10px;
+  justify-content: center;
 }
 
 .contato_container{
@@ -177,4 +243,29 @@ textarea {
   height: 80%;
   justify-content: end;
   align-items: end;
+}
+
+
+.carousel{
+  display: flex;
+  flex-direction: row;
+  
+ 
+}
+
+.carousel div{
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+.item{
+  transition: .35s;
+  cursor: pointer;
+}
+
+.carousel:hover > :not(:hover){
+  opacity: .4;
+  transform: scale(0.9);
 }
