@@ -15,7 +15,11 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100;
+
+  
 }
+
+
 
 .content {
   /* border: 1px red solid; */
@@ -30,6 +34,12 @@ header {
   /* border: 2px yellow solid; */
   width: 100%;
   height: 775px;
+}
+
+#header2 {
+  /* border: 2px yellow solid; */
+  width: 100%;
+  height: 47vw;
 }
 
 .top-nav {
@@ -103,7 +113,7 @@ header {
   font-size: 25px;
 }
 
-.open a{
+.orçamentobtn{
   background-color: #FFBB00;
   padding: 15px;
   border-radius: 20px;
@@ -111,10 +121,12 @@ header {
   color: black;
 }
 
-.open a:hover{
+.orçamentobtn:hover{
   color: rgb(90, 88, 88);
   transition: .2s;
+  padding: 17px;
 }
+
 
 
 .foguete01{
@@ -159,7 +171,7 @@ header {
 .foguete02{
   display: flex;
   position:absolute;
-  margin-right: 0%;
+  margin-right: -10%;
   margin-bottom: 25%;
   background-color: white;
   padding: 10px;
@@ -180,15 +192,15 @@ header {
     }
 
   25%{
-      transform: translatex(-40px)
+      transform: translatex(20px)
   }
 
   50% {
       transform: translatex(1px);
-      transform: translatey(-40px)
+      transform: translatey(-20px)
     }
   75% {
-        transform: translatey(30px);
+        transform: translatey(20px);
       }
   100% {
         transform: translatey(0px);
@@ -240,11 +252,32 @@ header {
   border: 2px solid black;
 
 
-  animation-name: example2;
-  animation-duration:20s;
-  animation-delay: 0s;
+  animation-name: example4;
+  animation-duration:10s;
+  animation-delay: 2s;
   animation-iteration-count:infinite;
 }
+
+@keyframes example4 {
+  0% {
+      transform: translatey(0px);
+    }
+
+  25%{
+      transform: translatex(10px)
+  }
+
+  50% {
+      transform: translatex(1px);
+      transform: translatey(-20px)
+    }
+  75% {
+        transform: translatey(20px);
+      }
+  100% {
+        transform: translatey(0px);
+      }
+  }
 
 .foguete06{
   display: flex;
@@ -263,7 +296,87 @@ header {
   animation-iteration-count:infinite;
 }
 
+.foguete99{
+  display: flex;
+  position:fixed;
+  margin-right: -30%;
+  margin-bottom: -5%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+
+
+  animation-name: example99;
+  animation-duration:10s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+}
+.foguete98{
+  display: flex;
+  position:fixed;
+  margin-right: -30%;
+  margin-bottom: 25%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+
+
+  animation-name: example99;
+  animation-duration:10s;
+  animation-delay: 1s;
+  animation-iteration-count:infinite;
+}
+.foguete97{
+  display: flex;
+  position:fixed;
+  margin-right: -30%;
+  margin-bottom: 10%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+
+
+  animation-name: example99;
+  animation-duration:10s;
+  animation-delay: 3s;
+  animation-iteration-count:infinite;
+}
+
+
+
+@keyframes example99 {
+  0% {
+      transform: translatex(0px);
+    }
+    
+    
+    50% {
+          transform: translatex(100px);
+        }
+  
+    
+    100% {
+          transform: translatex(0px);
+        }
+  
+  
+  
+      }
+
+
 .animation {
+  /* background-color: green; */
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.animation2 {
   /* background-color: green; */
   width: 50%;
   height: 100%;
@@ -339,8 +452,8 @@ header {
   height: 100%;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:right;
+  align-items:start;
 
 }
 
@@ -349,6 +462,8 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  padding-left: 10px;
+  margin-right: 10px;
 }
 
 .estrela{
@@ -373,7 +488,7 @@ header {
   right: 20%;
 
   width: 60%;
-  height: 65%;
+  height: 50%;
   background-color: white;
   border: 3px solid black;
 
@@ -516,15 +631,35 @@ form{
   display: flex;
   flex-direction: row;
   
- 
 }
 
 .carousel div{
-  background-color: aqua;
-  height: 100px;
-  width: 100px;
+  background-color: #ffbb00a8;
+  height: 350px;
+  width: 250px;
   margin: 10px;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
+
+.carousel p {
+  text-align: center;
+  align-items: center;
+  
+}
+.carousel a{
+
+  text-decoration: none;
+  color: black;
+}
+
+
 
 .item{
   transition: .35s;
