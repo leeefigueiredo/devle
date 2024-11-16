@@ -157,12 +157,12 @@ header {
   }
 
   25% {
-    transform: translatex(-40px)
+    transform: translatey(-40px)
   }
 
   50% {
-    transform: translatex(40px);
-    transform: translatey(-40px)
+    
+    
   }
 
   75% {
