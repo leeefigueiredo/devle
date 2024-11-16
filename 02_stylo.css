@@ -599,6 +599,11 @@ textarea::placeholder{
   justify-items: center;
 }
 
+.solicite button{
+  border-radius: 10px;
+  paddin
+}
+
 .biografia {
   /* background-color: rosybrown; */
   width: 50%;
@@ -615,7 +620,7 @@ textarea::placeholder{
 
 .biografia img{
   border-radius: 40%;
-  border: 10px solid white;
+  border: 5px solid white;
  
 }
 .solicite {
