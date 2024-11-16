@@ -14,12 +14,20 @@ html {
 body {
   margin: 0px;
   padding: 0px;
-  height: 100;
+  height: 100%;
 
-  
 }
 
+.wpp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 
+  animation-name: example2;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
 
 .content {
   /* border: 1px red solid; */
@@ -31,14 +39,12 @@ body {
 }
 
 header {
-  /* border: 2px yellow solid; */
+  border: 2px yellow solid;
   width: 100%;
   height: 775px;
 }
 
-#header2 {
-
-}
+#header2 {}
 
 .top-nav {
   position: fixed;
@@ -60,9 +66,9 @@ header {
 
 }
 
-.top-nav h1{
- padding-left: 50px;
- 
+.top-nav h1 {
+  padding-left: 50px;
+
 }
 
 
@@ -70,19 +76,19 @@ header {
   display: inline-block;
   padding: 10PX;
   text-decoration: none;
-  
+
 
 }
 
-.link_nav{
+.link_nav {
   text-decoration: none;
   color: black;
 }
 
-.link_nav:hover{
+.link_nav:hover {
   transition: .2s;
   color: rgb(90, 88, 88);
- 
+
 }
 
 .head_open {
@@ -102,16 +108,16 @@ header {
   justify-content: center;
 }
 
-.open h1{
+.open h1 {
   font-size: 100px;
   margin: 0px;
 }
 
-.open h2{
+.open h2 {
   font-size: 25px;
 }
 
-.orçamentobtn{
+.orçamentobtn {
   background-color: #FFBB00;
   padding: 15px;
   border-radius: 20px;
@@ -119,7 +125,7 @@ header {
   color: black;
 }
 
-.orçamentobtn:hover{
+.orçamentobtn:hover {
   color: rgb(90, 88, 88);
   transition: .2s;
   padding: 17px;
@@ -127,9 +133,9 @@ header {
 
 
 
-.foguete01{
+.foguete01 {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-right: 22%;
   margin-bottom: -15%;
   background-color: white;
@@ -138,37 +144,39 @@ header {
   border: 2px solid black;
 
   animation-name: example2;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
 
 @keyframes example2 {
   0% {
-      transform: translatey(0px);
-    }
+    transform: translatey(0px);
+  }
 
-  25%{
-      transform: translatex(-40px)
+  25% {
+    transform: translatex(-40px)
   }
 
   50% {
-      transform: translatex(40px);
-      transform: translatey(-40px)
-    }
-  75% {
-        transform: translatey(0px);
-      }
-  100% {
-        transform: translatey(0px);
-      }
+    transform: translatex(40px);
+    transform: translatey(-40px)
   }
 
+  75% {
+    transform: translatey(0px);
+  }
 
-.foguete02{
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+
+.foguete02 {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-right: -10%;
   margin-bottom: 25%;
   background-color: white;
@@ -177,37 +185,39 @@ header {
   border: 2px solid black;
 
   animation-name: example3;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 
 
 }
 
 @keyframes example3 {
   0% {
-      transform: translatey(0px);
-    }
+    transform: translatey(0px);
+  }
 
-  25%{
-      transform: translatex(20px)
+  25% {
+    transform: translatex(20px)
   }
 
   50% {
-      transform: translatex(1px);
-      transform: translatey(-20px)
-    }
-  75% {
-        transform: translatey(20px);
-      }
-  100% {
-        transform: translatey(0px);
-      }
+    transform: translatex(1px);
+    transform: translatey(-20px)
   }
 
-.foguete03{
+  75% {
+    transform: translatey(20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.foguete03 {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-right: -28%;
   margin-bottom: 0%;
   background-color: white;
@@ -217,14 +227,14 @@ header {
 
 
   animation-name: example2;
-  animation-duration:15s;
+  animation-duration: 15s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
-.foguete04{
+.foguete04 {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-right: 0%;
   margin-bottom: -45%;
   background-color: white;
@@ -234,14 +244,14 @@ header {
 
 
   animation-name: example2;
-  animation-duration:5s;
+  animation-duration: 5s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
-.foguete05{
+.foguete05 {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-right: 35%;
   margin-bottom: 0%;
   background-color: white;
@@ -251,35 +261,37 @@ header {
 
 
   animation-name: example4;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 2s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
 @keyframes example4 {
   0% {
-      transform: translatey(0px);
-    }
+    transform: translatey(0px);
+  }
 
-  25%{
-      transform: translatex(10px)
+  25% {
+    transform: translatex(10px)
   }
 
   50% {
-      transform: translatex(1px);
-      transform: translatey(-20px)
-    }
-  75% {
-        transform: translatey(20px);
-      }
-  100% {
-        transform: translatey(0px);
-      }
+    transform: translatex(1px);
+    transform: translatey(-20px)
   }
 
-.foguete06{
+  75% {
+    transform: translatey(20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.foguete06 {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-right: -28%;
   margin-bottom: 25%;
   background-color: white;
@@ -289,14 +301,14 @@ header {
 
 
   animation-name: example2;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
-.foguete99{
+.foguete99 {
   display: flex;
-  position:fixed;
+  position: fixed;
   margin-right: -30%;
   margin-bottom: -5%;
   background-color: white;
@@ -306,13 +318,14 @@ header {
 
 
   animation-name: example99;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
-.foguete98{
+
+.foguete98 {
   display: flex;
-  position:fixed;
+  position: fixed;
   margin-right: -30%;
   margin-bottom: 25%;
   background-color: white;
@@ -322,13 +335,14 @@ header {
 
 
   animation-name: example99;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 1s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
-.foguete97{
+
+.foguete97 {
   display: flex;
-  position:fixed;
+  position: fixed;
   margin-right: -30%;
   margin-bottom: 10%;
   background-color: white;
@@ -338,31 +352,31 @@ header {
 
 
   animation-name: example99;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 3s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
 
 
 @keyframes example99 {
   0% {
-      transform: translatex(0px);
-    }
-    
-    
-    50% {
-          transform: translatex(100px);
-        }
-  
-    
-    100% {
-          transform: translatex(0px);
-        }
-  
-  
-  
-      }
+    transform: translatex(0px);
+  }
+
+
+  50% {
+    transform: translatex(100px);
+  }
+
+
+  100% {
+    transform: translatex(0px);
+  }
+
+
+
+}
 
 
 .animation {
@@ -374,6 +388,7 @@ header {
   align-items: center;
   justify-content: center
 }
+
 .animation2 {
   /* background-color: green; */
   width: 50%;
@@ -396,66 +411,67 @@ header {
 
   display: flex;
   flex-direction: column;
-  
+
 
   animation-name: example1;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 
 
 }
 
 @keyframes example1 {
   0% {
-      transform: translatey(0px);
-    }
+    transform: translatey(0px);
+  }
 
-  25%{
-      transform: translatey(-40px)
+  25% {
+    transform: translatey(-40px)
   }
 
   50% {
-      transform: translatey(0px);
-    }
-  75% {
-        transform: translatey(0px);
-      }
-  100% {
-        transform: translatey(0px);
-      }
+    transform: translatey(0px);
   }
 
+  75% {
+    transform: translatey(0px);
+  }
 
-.web .line{
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+
+.web .line {
   width: 50%;
 }
 
-.wnav{
+.wnav {
   width: 100%;
   height: 5%;
   background-color: #FFBB00;
- 
+
 
 }
 
-.wheader{
+.wheader {}
 
-}
-
-.wimg{
+.wimg {
   background-color: #FFBB00;
-  
+
   width: 100%;
   height: 100%;
 
   display: flex;
-  justify-content:right;
-  align-items:start;
+  justify-content: right;
+  align-items: start;
 
 }
 
-.wimg p, .mimg p{
+.wimg p,
+.mimg p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -464,15 +480,13 @@ header {
   margin-right: 10px;
 }
 
-.estrela{
+.estrela {
   padding: 10px;
 }
 
-.wtext{
-  
-}
+.wtext {}
 
-.line{
+.line {
   background-color: black;
   width: 100%;
   height: 5px;
@@ -491,18 +505,18 @@ header {
   border: 3px solid black;
 
   animation-name: example1;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 2s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 
 }
 
-.mheader{
-  padding: 10px ;
-  
+.mheader {
+  padding: 10px;
+
 }
 
-.mimg{
+.mimg {
   background-color: #FFBB00;
   height: 200px;
 
@@ -548,10 +562,10 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  
+
 }
 
-footer div{
+footer div {
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -575,7 +589,7 @@ input {
   border-radius: 20px;
   border: none;
   text-align: center;
-  
+
 }
 
 textarea {
@@ -590,7 +604,7 @@ textarea {
   text-align: center;
 }
 
-textarea::placeholder{
+textarea::placeholder {
   color: black;
   font-size: 18px;
 }
@@ -599,9 +613,9 @@ textarea::placeholder{
   justify-items: center;
 }
 
-.solicite button{
+.solicite button {
   border-radius: 10px;
-  paddin
+
 }
 
 .biografia {
@@ -613,26 +627,27 @@ textarea::placeholder{
   padding-left: 10%;
   display: flex;
   text-align: center;
-  justify-content:center;
+  justify-content: center;
 }
 
 
 
-.biografia img{
+.biografia img {
   border-radius: 40%;
   border: 5px solid white;
- 
+
 }
+
 .solicite {
   /* background-color: green; */
   width: 50%;
   height: 100%;
-  
+
   display: flex;
   flex-direction: column;
 }
 
-.soliciteh2{
+.soliciteh2 {
   background-color: #FFBB00;
 
   align-items: center;
@@ -641,44 +656,45 @@ textarea::placeholder{
 
   border-radius: 20px;
 
-  
+
   animation-name: example1;
-  animation-duration:10s;
+  animation-duration: 10s;
   animation-delay: 0s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 
 }
 
 @keyframes example1 {
   0% {
-      transform: translatey(0px);
-    }
+    transform: translatey(0px);
+  }
 
-  25%{
-      transform: translatey(20px)
-
+  25% {
+    transform: translatey(20px)
   }
 
   50% {
-      transform: translatey(0px);
-    }
-  75% {
-        transform: translatey(0px);
-      }
-  100% {
-        transform: translatey(0px);
-      }
+    transform: translatey(0px);
   }
 
+  75% {
+    transform: translatey(0px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
 
 
-form{
+
+form {
   /* border: 2px solid red; */
   padding: 10px;
   justify-content: center;
 }
 
-.contato_container{
+.contato_container {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -688,13 +704,13 @@ form{
 }
 
 
-.carousel{
+.carousel {
   display: flex;
   flex-direction: row;
-  
+
 }
 
-.carousel div{
+.carousel div {
   background-color: #ffbb00a8;
   height: 350px;
   width: 250px;
@@ -712,9 +728,10 @@ form{
 .carousel p {
   text-align: center;
   align-items: center;
-  
+
 }
-.carousel a{
+
+.carousel a {
 
   text-decoration: none;
   color: black;
@@ -722,12 +739,111 @@ form{
 
 
 
-.item{
+.item {
   transition: .35s;
   cursor: pointer;
 }
 
-.carousel:hover > :not(:hover){
+.carousel:hover> :not(:hover) {
   opacity: .4;
   transform: scale(0.9);
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+  header{
+    height: 100%;
+  }
+
+  .open{
+    width: 100%;
+    height: 100%;
+    padding-top: 40%;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+
+  .head_open {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .animation {
+   display: none;
+  }
+
+  .web{
+    display: none;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  #projetos {
+
+    padding-top: 40%;
+    padding-bottom: 10%;
+    border: 2px solid red;
+    height: 100%;
+  }
+
+  #contato {
+
+    padding-top: 40%;
+    padding-bottom: 10%;
+
+    border: 2px solid yellow;
+    height: 100%;
+  }
+
+  .biografia{
+    padding: 0px;
+    width: 100%;
+  }
+
+  .solicite{
+    width: 100%;
+    padding-top: 10%;
+
+    animation: 123;
+  }
+
+  .soliciteh2{
+    animation: none;
+  }
+  .contato_container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer{
+    height: 150px;
+  }
+
+  .redes{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .redes img{
+    padding: 2px;
+  }
+
+  .numero{
+    display: none;
+  }
+
+  .nome{
+    padding-right:100px;
+  }
 }
