@@ -156,21 +156,8 @@ header {
     transform: translatey(0px);
   }
 
-  25% {
-    transform: translatey(-40px)
-  }
-
-  50% {
-    
-    
-  }
-
-  75% {
-    transform: translatey(0px);
-  }
-
   100% {
-    transform: translatey(0px);
+    transform: translatey(-40px);
   }
 }
 
