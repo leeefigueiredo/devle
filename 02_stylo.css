@@ -97,7 +97,7 @@ header {
 .top-nav div:last-child{
   display: flex;
   width: 60%;
-  border: 2px solid red;
+  
   
   padding: 0px;
   justify-content: end;
