@@ -69,7 +69,7 @@ header {
 }
 
 .top-nav a{
-  padding-top: 200px;
+  padding: 20px;
   text-decoration: none;
   color: black;
 }
@@ -77,6 +77,36 @@ header {
 .menu {
   width: 300px;
   padding: 0px;
+}
+
+
+.top-nav div{
+  display: flex;
+  padding: 10px;
+ 
+}
+
+.top-nav div:first-child{
+  display: flex;
+  width: 15%;
+ 
+  
+  align-items: center;
+}
+
+.top-nav div:last-child{
+  display: flex;
+  width: 60%;
+  border: 2px solid red;
+  
+  padding: 0px;
+  justify-content: end;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
 }
 
 .top-nav h1 {
@@ -145,7 +175,7 @@ header {
   border: 2px solid black;
 
   animation-name: example2;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
 }
@@ -156,8 +186,12 @@ header {
     transform: translatey(0px);
   }
 
-  100% {
+  50% {
     transform: translatey(-40px);
+  }
+
+  100% {
+    transform: translatey(0px);
   }
 }
 
@@ -791,7 +825,7 @@ form {
 
   #contato {
 
-    padding-top: 40%;
+    padding-top: 35%;
     padding-bottom: 10%;
 
 
@@ -829,7 +863,7 @@ form {
     display: flex;
     flex-direction: column-reverse;
 
-    padding-bottom: 40%;
+    /* padding-bottom: 40%; */
 
   }
 
@@ -856,7 +890,7 @@ form {
 
   .li_nav {
     display: inline-block;
-    padding: 2px;
+    padding: 10px;
     text-decoration: none;
   }
 
@@ -877,17 +911,18 @@ form {
   }
 
   .top-nav ul {
-    padding-right: 20px;
+    
   }
 
   
   .ul {
-   
+   justify-content: center;
     
     
   }
 
   .top-nav a{
+    padding: 5px;
     text-decoration: none;
     color: black;
   }
