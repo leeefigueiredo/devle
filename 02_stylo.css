@@ -910,6 +910,7 @@ form {
   .top-nav {
     position: fixed;
     top: 0px;
+    left: 0px;
 
     justify-content: space-between;
     height: 100px;
