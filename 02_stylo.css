@@ -815,18 +815,19 @@ form {
 
   .carousel {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: auto;
   }
 
   .carousel img{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 
   .carousel div{
-    width: 90px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
     
   }
 
