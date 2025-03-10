@@ -815,21 +815,22 @@ form {
 
   .carousel {
     display: flex;
-    flex-direction: column;
-    width: auto;
+   border: 1px solid black;
+    width: 100;
   }
 
   .carousel img{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
   }
 
   .carousel div{
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+    width: 100px;
+    height: 200px;
+
     
   }
+
 
   .carousel p {
     font-size: 8px;
