@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Chamados de TI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="login-overlay" class="login-overlay">
+        <div class="login-popup">
+            <form id="login-form">
+                <h2>Acesso ao Sistema de Chamados</h2>
+                <p>Por favor, insira suas credenciais para continuar.</p>
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" placeholder="seuemail@geomembrana.com.br" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Senha</label>
+                    <input type="password" id="login-password" placeholder="Sua senha" required>
+                </div>
+                <button type="submit" class="btn-login">Entrar</button>
+                <p id="login-error" class="error-message"></p>
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Sistema de Gestão de Chamados</h1>
+        
+        <div class="form-container">
+            <form id="chamado-form">
+                <input type="hidden" id="edit-index">
+
+                <div class="form-group full-width">
+                    <label for="titulo">Título do Chamado</label>
+                    <input type="text" id="titulo" placeholder="Ex: Impressora não funciona" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="solicitante">Nome do Solicitante</label>
+                    <input type="text" id="solicitante" placeholder="Quem abriu o chamado" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="departamento">Departamento</label>
+                    <input type="text" id="departamento" placeholder="Ex: Financeiro, TI, RH" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="responsavel">Responsável</label>
+                    <select id="responsavel" required>
+                        <option value="Leandro Oliveira">Leandro Oliveira</option>
+                        <option value="Guilherme Jeronymo">Guilherme Jeronymo</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="prioridade">Prioridade</label>
+                    <select id="prioridade" required>
+                        <option value="Baixa">Baixa</option>
+                        <option value="Média">Média</option>
+                        <option value="Alta">Alta</option>
+                    </select>
+                </div>
+                
+                <div class="form-group full-width">
+                    <label for="descricao">Descrição do Problema</label>
+                    <textarea id="descricao" rows="4" placeholder="Detalhe o problema aqui..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-salvar">Salvar Chamado</button>
+            </form>
+        </div>
+
+        <div class="table-container">
+            <h2>Lista de Chamados</h2>
+            
+            <div class="filter-container">
+                <div class="form-group">
+                    <label for="filter-date">Filtrar por Data</label>
+                    <input type="date" id="filter-date">
+                </div>
+                <div class="form-group">
+                    <label for="filter-status">Filtrar por Status</label>
+                    <select id="filter-status">
+                        <option value="Todos">Todos</option>
+                        <option value="Aberto">Aberto</option>
+                        <option value="Em Andamento">Em Andamento</option>
+                        <option value="Concluído">Concluído</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="hide-completed">Ocultar Concluídos</label>
+                    <input type="checkbox" id="hide-completed">
+                </div>
+                <button id="clear-filters" class="btn-limpar">Limpar Filtros</button>
+            </div>
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Responsável</th>
+                        <th>Prioridade</th>
+                        <th>Status</th>
+                        <th>Data Abertura</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="chamados-table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
