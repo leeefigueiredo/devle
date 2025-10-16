@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginError = document.getElementById('login-error');
 
     // Credenciais válidas
-    const validEmails = ["guilherme@geomembrana.com.br", "leandro.oliveira@geomembrana.com.br"];
+    const validEmails = ["guilherme.jeronymo@geomembrana.com.br", "leandro.oliveira@geomembrana.com.br"];
     const validPassword = "Souza@1112";
 
     loginForm.addEventListener('submit', (e) => {
